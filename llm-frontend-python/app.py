@@ -1,5 +1,6 @@
-import requests
-from flask import Flask, jsonify, render_template, request
+import requests # type: ignore
+
+from flask import Flask, jsonify, render_template, request # type: ignore
 from config import BACKEND_URL, DEBUG, FLASK_PORT
 
 app = Flask(__name__)
